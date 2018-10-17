@@ -1,0 +1,22 @@
+ENGLISH:
+
+Open the STEAM API & EMU CHANGER folder and Put inside the user_file folder your steam_emu or steam_api .ini file
+
+OPEN SEAC.rb With Ruby
+
+When asked to type 1 to edit a steam_api.ini file or 2 to edit a steam_emu.ini file
+
+Follow The Step
+
+
+ITALIAN:
+
+
+
+Apri la cartella STEAM API e EMU CHANGER e metti nella cartella user_file il tuo file steam_emu o steam_api .ini
+
+APRI il file SEAC.rb Con Ruby
+
+Quando ti viene chiesto, digita 1 per modificare un file steam_api.ini o digita 2 per modificare un file steam_emu.ini
+
+Segui Gli Step
