@@ -7,6 +7,15 @@
   <li><a href="https://www.ruby-lang.org">Ruby For Windows,Mac,Linux</a></li>
 </ul>
 
+
+# Config:
+<ul>
+  <li>Open the STEAM API & EMU CHANGER folder and Put inside the user_file folder your steam_emu or steam_api .ini file</li>
+  <li>OPEN SEAC.rb With Ruby</li>
+  <li>When asked to type 1 to edit a steam_api.ini file, 2 to edit a steam_emu.ini file or type 3 to enter a custom .ini file</li>
+  <li>Follow The Step</li>
+ </ul>
+
 # Credits
 +++ STEAM API & EMU CHANGER +++
 
