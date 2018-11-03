@@ -20,3 +20,23 @@ APRI il file SEAC.rb Con Ruby
 Quando ti viene chiesto, digita 1 per modificare un file steam_api.ini, digita 2 per modificare un file steam_emu.ini o digita 3 per inserire un file .ini personalizzato.
 
 Segui Gli Step
+
+
+
+#Custom .ini file options -English
+
+
+1) Create an empty file inside the user_file folder and call it how you want (example: hello.ini)
+2) Start SEAC.rb
+3) Type 3 when prompted
+4) Follow The Steps
+5) Enjoy
+
+#File .ini personalizzato - Italian - Italiano
+
+
+1) Crea un file vuoto all'interno della cartella user_file e chiamalo come vuoi (esempio: hello.ini)
+2) Avvia SEAC.rb
+3) Digitare 3 quando richiesto
+4) Segui i passaggi
+5) Enjoy

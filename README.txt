@@ -6,8 +6,7 @@
 
 Compatibility: Windows (10,8.1,8,7) ; Linux (99% Of Distro) ;
 Dependency: (inifile Gem, ruby)
-Windows Version Dependency: (None)
-
+Windows Version Dependency: (setting.ini file)
 
 +NOTE+
 
