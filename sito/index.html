@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="css/style.css" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+    /*
+    jQuery Scroll to ID
+    */
+    function scroll_to(id) {
+    $('html,body').animate({
+    scrollTop: $('#'+id).offset().top
+    },'slow');
+    }
+    </script>
+  <title>Homepage</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-example" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">SEAC 💎</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbar-example">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+            <li><a><span onclick="scroll_to('about')">About SEAC 💎</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Languages <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="404.html">Italiano 🇮🇹</a></li>
+              <li><a href="index.html">English 🇬🇧</a></li>
+              <!--<li role="separator" class="divider"></li> Divide i link-->
+            </ul>
+          </li>
+        </ul>
+<!--❤-->	
+
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+
+
+
+
+
+  <!--Slide Immagini -->
+ <div id="carousel" class="carousel slide" data-ride="carousel">
+ <!-- Indicators -->
+ <ol class="carousel-indicators">
+   <li data-target="#carousel" data-slide-to="0" class="active"></li>
+ </ol>
+
+ <!-- Wrapper for slides -->
+ <div class="carousel-inner" role="listbox">
+   <div class="item active">
+     <div class="carousel-caption">
+       <h3 class="title">SEAC TOOL</h3>
+         <h3 class="mobile">SEAC TOOL</h3>
+       <p></p>
+     </div>
+   </div>
+ </div>
+
+ <!-- Controls --
+ <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+   <span class="sr-only">Previous</span>
+ </a>
+ <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+   <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+   <span class="sr-only">Next</span>
+ </a>
+-->
+
+</div>
+<!--Fine Slide-->
+
+    
+    
+    
+    
+
+    
+<div class="container">
+
+  
+
+<hr>
+
+    <div id="about">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3>About SEAC</h3>
+      <p>SEAC is a lightweigth tool devolved in Ruby, it allow you to edit, create and save some type of .ini file.
+        The current version is in BETA [For Dev Only], this software use the inifile library to read and write all .ini files for Windows.
+        SEAC use a config file called settings.ini (only for Windows PC), usefull to change the software language.
+        </p>
+    </div>
+    <div class="col-sm-6">
+      <h3>Compatibilty:</h3>
+      <p>SEAC is designed and programmed for Windows PCs, but is executable on linux with the appropriate change (change the .ini settings system and compile to be runnable on Linux Darwin Kernel).<br>
+      Windows (Windows 10,8.1,8,7 - 64bit), Linux (Ubuntu 16.x,Mint 10.x,Debian All).</p>
+    </div>
+  </div>
+    </div>
+    
+    
+  <hr>
+
+  <p class="lead">SEAC is free and Open-Source Project released with the MIT-LICENSE, you cand change anything but you have to include The original Credits.(placed in the Source-code or in the License).<br>
+    Skill Required: Ruby</p>
+
+
+
+  <!-- Button trigger modal -->
+  <a href="https://github.com/anonik9900/SEAC/releases"><button type="button" class="btn btn-primary btn-lg"  href="https://github.com/anonik9900/SEAC/releases">
+    Download Latest Version
+      </button></a>
+     <!-- Button trigger modal -->
+  <a href="https://github.com/anonik9900/SEAC"><button type="button" class="btn btn-primary btn-lg"  href="https://github.com/anonik9900/SEAC">
+    Fork This Repository
+      </button></a>
+
+
+
+  <hr>
+
+
+
+  
+
+</div><!--Fine Container-->
+    
+    
+ <div class="footer">
+     <p class="lead footer">Copyright &copy; 2018 SEAC | Theme,Website And Tool By : <a href="https://github.com/anonik9900" class="footer-link">Anonik</a> | Devolved With ❤ & 💎 </p>
+     <br>
+</div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+  </div>
+</div>
+   
+    
+
+
+<!--Script-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
