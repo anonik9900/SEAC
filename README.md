@@ -1,6 +1,6 @@
 # SEAC
 +++ Steam API &amp; EMU Changer By Anonik +++ writted in Ruby +++
-<a href="http://seac.altervista.org/index.html">Website</a>
+<h2><a href="http://seac.altervista.org/index.html">Website</a></h2>
 
 # Dependency:
 <ul>
